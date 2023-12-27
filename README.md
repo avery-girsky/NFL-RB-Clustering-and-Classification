@@ -1,6 +1,6 @@
-***NFL RUNNING BACK CLUSTERING AND CLASSIFICATION***
+# NFL RUNNING BACK CLUSTERING AND CLASSIFICATION
 
-**Description**:
+## Description:
 
 As I prepare for another year of fantasy football in 2023, I sit at the end of the first round and realize that Derrick Henry often slips to the back of the first round and early second round in drafts. For the past three years, the fantasy community talked about his heavy workload and the impending cliff that he _must_ fall off of, but year after year he kept producing. Each year I listened and avoided drafting him in the top end of the first round, only to be proven wrong. This year finally I decided to put him onto my radar as his draft value had dropped, but I wanted to know if there was a historical precedent for long sustained production.
 
@@ -9,7 +9,7 @@ Simultaneously, I am starting my Master's in Analytics at Georgia Tech and learn
 I broke this process into three significant steps: _data collection_, _clustering_, and _classification_.
 
 
-**Data Collection**:
+## Data Collection:
 
 As an undergrad, I spent a significant amount of time web scraping in python for my research lab, so I knew if I could find running back data online then I could collect it. I easily put running backs into the search bar of [Pro Football Reference](https://www.pro-football-reference.com) and received a link of every running back in history with links to their stat pages. The overall web scraping process became to loop through the list of every running back and record their name, then navigate to their individual PFR page and add up their fantasy points in every season they played using ESPN PPR format. With web scraping, though, it's never that easy. Here is a list of issues I ran into, and their subsequent solutions.
 
@@ -22,4 +22,6 @@ As an undergrad, I spent a significant amount of time web scraping in python for
 After dealing with these issues, I recorded the past player data in the file RBData.csv and the current player data in Current_RBData.csv.
 
 
-**Clustering**:
+## Clustering:
+
+## Classification:
