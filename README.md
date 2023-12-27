@@ -1,4 +1,4 @@
-# NFL RUNNING BACK CLUSTERING AND CLASSIFICATION
+# NFL Running Back Classification and Clustering
 
 ## Description
 
