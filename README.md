@@ -20,8 +20,3 @@ As an undergrad, I spent a significant amount of time web scraping in python for
 + _Different players have their rushing stats in different orders and places:_ Originally I used the position of rushing and receiving stats on the website to capture stats, but players listed as WR/RB would have stats in different orders and different locations on the page. I instead pivoted to using an identifier for each stat present in the HTML of the website.
 
 After dealing with these issues, I recorded the past player data in the file RBData.csv and the current player data in Current_RBData.csv.
-
-
-## Clustering
-
-## Classification
